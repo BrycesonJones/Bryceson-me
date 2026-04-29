@@ -16,7 +16,10 @@ export default function Home() {
                 sizes="96px"
                 className="rounded-full object-cover"
               />
-              <span className="absolute bottom-1 right-1 h-4 w-4 rounded-full border-2 border-zinc-100 bg-lime-400" />
+              <span className="absolute bottom-1 right-1 h-4 w-4">
+                <span className="absolute inset-0 animate-ping rounded-full bg-green-800 opacity-75" />
+                <span className="relative block h-4 w-4 rounded-full border-2 border-zinc-100 bg-green-800" />
+              </span>
             </div>
             <div className="space-y-1">
               <h1 className="text-3xl font-bold">Bryceson Jones</h1>

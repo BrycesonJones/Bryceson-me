@@ -67,7 +67,7 @@ const tools: Tool[] = [
     name: "Resend",
     href: "https://resend.com/",
     description: "A service for email dev work",
-    image: "/tools/Resend.png",
+    image: "/tools/Resend.jpeg",
   },
 ];
 

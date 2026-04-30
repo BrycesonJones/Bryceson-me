@@ -69,6 +69,42 @@ const tools: Tool[] = [
     description: "A service for email dev work",
     image: "/tools/Resend.jpeg",
   },
+  {
+    name: "Upstash",
+    href: "https://upstash.com/",
+    description: "Redis cache",
+    image: "/tools/Upstash.png",
+  },
+  {
+    name: "Userjot",
+    href: "https://userjot.com/",
+    description: "User feedback",
+    image: "/tools/Userjot.png",
+  },
+  {
+    name: "Loops",
+    href: "https://loops.so/",
+    description: "Email sequencing",
+    image: "/tools/Loops.jpeg",
+  },
+  {
+    name: "Alchemy",
+    href: "https://www.alchemy.com/",
+    description: "RPC infra and tooling",
+    image: "/tools/Alchemy.jpeg",
+  },
+  {
+    name: "Etherscan",
+    href: "https://etherscan.io/",
+    description: "EVM data",
+    image: "/tools/Etherscan.png",
+  },
+  {
+    name: "Mempool",
+    href: "https://mempool.space/",
+    description: "BTC block explorer",
+    image: "/tools/mempool.jpeg",
+  },
 ];
 
 export default function ToolsPage() {

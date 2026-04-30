@@ -63,6 +63,12 @@ const tools: Tool[] = [
     description: "A service I use for payments",
     image: "/tools/Stripe.png",
   },
+  {
+    name: "Resend",
+    href: "https://resend.com/",
+    description: "A service for email dev work",
+    image: "/tools/Resend.png",
+  },
 ];
 
 export default function ToolsPage() {

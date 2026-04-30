@@ -87,7 +87,7 @@ export default function Home() {
             <p>I post regularly on these platforms</p>
             <div className="group flex items-center">
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/@SystemsofSimulacra"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
@@ -122,7 +122,7 @@ export default function Home() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/bryceson.simulacra/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -170,7 +170,7 @@ export default function Home() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/brycesonjones/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

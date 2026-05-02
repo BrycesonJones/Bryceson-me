@@ -216,10 +216,12 @@ export default function Home() {
           <p className="text-xl">
             DM me on X{" "}
             <a
-              href="#"
+              href="https://x.com/brycesonjx"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-semibold text-blue-700 underline-offset-4 hover:underline"
             >
-              @bryceson
+              @brycesonjx
             </a>
           </p>
         </section>

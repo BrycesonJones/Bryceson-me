@@ -81,6 +81,49 @@ export default function Home() {
                 </p>
               </div>
             </a>
+
+            <a
+              href="https://njump.me/npub166tapvsp0h6sawg9knna904p0ttjah27j4m3h4u73sdf4wy5pgzqzjzsan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
+            >
+              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl shadow-sm">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-full w-full"
+                  aria-hidden
+                >
+                  <defs>
+                    <linearGradient
+                      id="nostr-grad"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop offset="0%" stopColor="#1a1033" />
+                      <stop offset="100%" stopColor="#000000" />
+                    </linearGradient>
+                  </defs>
+                  <rect width="24" height="24" fill="url(#nostr-grad)" />
+                  <circle cx="12" cy="12" r="2.2" fill="#a78bfa" />
+                  <path
+                    d="M14.6 9.4a4 4 0 0 1 0 5.2M16.8 7.4a7 7 0 0 1 0 9.2M9.4 9.4a4 4 0 0 0 0 5.2M7.2 7.4a7 7 0 0 0 0 9.2"
+                    fill="none"
+                    stroke="#a78bfa"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </div>
+              <div className="flex-1 text-center">
+                <p className="text-lg font-bold text-zinc-900">Nostr Agent</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
+                  Autonomous Bitcoin-Native AI Publishing Agent
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-4 text-base text-zinc-800">

@@ -77,7 +77,7 @@ export default function Home() {
               <div className="flex-1 text-center">
                 <p className="text-lg font-bold text-zinc-900">Lyoko</p>
                 <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
-                  Grow Using AI Agents
+                  Grow Your Business Using AI Agents
                 </p>
               </div>
             </a>

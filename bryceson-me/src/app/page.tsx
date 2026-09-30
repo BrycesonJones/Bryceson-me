@@ -24,8 +24,9 @@ export default function Home() {
             <div className="space-y-1">
               <h1 className="text-3xl font-bold">Bryceson Jones</h1>
               <p className="text-xl leading-relaxed">
-                I build Web3 products in public. I share experiments, what I am
-                learning, and what actually works.
+                I build AI, data, and Bitcoin products in public. I share what
+                I&apos;m building, what I&apos;m learning, and what actually
+                works.
               </p>
             </div>
           </div>
@@ -37,24 +38,42 @@ export default function Home() {
           </h2>
           <div className="space-y-3">
             <a
-              href="https://communitypool.online/"
+              href="https://urdais.com/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Urdais, AI and compute market intelligence"
+              className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
+            >
+              <div className="h-14 w-14 shrink-0" aria-hidden="true" />
+              <div className="min-w-0 flex-1 text-center">
+                <p className="text-lg font-bold text-zinc-900">Urdais</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
+                  AI & compute market intelligence
+                </p>
+              </div>
+            </a>
+
+            <a
+              href="https://hachisu.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Hachisu, non-custodial Bitcoin payment software"
               className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
             >
               <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl shadow-sm">
                 <Image
-                  src="/communitypool.png"
-                  alt="CommunityPool logo"
+                  src="/hachisu.svg"
+                  alt=""
                   fill
+                  unoptimized
                   sizes="56px"
                   className="object-cover"
                 />
               </div>
-              <div className="flex-1 text-center">
-                <p className="text-lg font-bold text-zinc-900">CommunityPool</p>
+              <div className="min-w-0 flex-1 text-center">
+                <p className="text-lg font-bold text-zinc-900">Hachisu</p>
                 <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
-                  Fund any outing, project, or event using digital gold
+                  Non-custodial Bitcoin payment software
                 </p>
               </div>
             </a>
@@ -63,18 +82,19 @@ export default function Home() {
               href="https://alyoko.io/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Lyoko, grow your business using AI agents"
               className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
             >
               <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white shadow-sm">
                 <Image
                   src="/lyoko.png"
-                  alt="Lyoko logo"
+                  alt=""
                   fill
                   sizes="56px"
                   className="object-contain p-1"
                 />
               </div>
-              <div className="flex-1 text-center">
+              <div className="min-w-0 flex-1 text-center">
                 <p className="text-lg font-bold text-zinc-900">Lyoko</p>
                 <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
                   Grow Your Business Using AI Agents
@@ -83,9 +103,34 @@ export default function Home() {
             </a>
 
             <a
+              href="https://communitypool.online/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="CommunityPool, fund any outing, project, or event using digital gold"
+              className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
+            >
+              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl shadow-sm">
+                <Image
+                  src="/communitypool.png"
+                  alt=""
+                  fill
+                  sizes="56px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="min-w-0 flex-1 text-center">
+                <p className="text-lg font-bold text-zinc-900">CommunityPool</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
+                  Fund any outing, project, or event using digital gold
+                </p>
+              </div>
+            </a>
+
+            <a
               href="https://njump.me/npub166tapvsp0h6sawg9knna904p0ttjah27j4m3h4u73sdf4wy5pgzqzjzsan"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Nostr Agent, autonomous Bitcoin-native AI publishing agent"
               className="flex items-center gap-4 rounded-2xl bg-zinc-200/70 px-5 py-4 transition-all duration-200 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
             >
               <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl shadow-sm">
@@ -117,7 +162,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <div className="flex-1 text-center">
+              <div className="min-w-0 flex-1 text-center">
                 <p className="text-lg font-bold text-zinc-900">Nostr Agent</p>
                 <p className="text-xs font-medium uppercase tracking-wide text-zinc-600">
                   Autonomous Bitcoin-Native AI Publishing Agent

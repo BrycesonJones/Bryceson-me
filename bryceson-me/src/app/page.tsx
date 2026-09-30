@@ -24,7 +24,7 @@ export default function Home() {
             <div className="space-y-1">
               <h1 className="text-3xl font-bold">Bryceson Jones</h1>
               <p className="text-xl leading-relaxed">
-                I build AI, data, and Bitcoin products in public. I share what
+                I build open source AI and Crypto products. I share what
                 I&apos;m building, what I&apos;m learning, and what actually
                 works.
               </p>
